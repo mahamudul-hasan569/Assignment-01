@@ -4,6 +4,43 @@
 }
 
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Shared style */
+.container {
+    max-width: 1360px;
+    margin: 0px auto;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color:#259453;
+}
+
+/* nav section */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color:#000000;
 }
