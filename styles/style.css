@@ -21,7 +21,11 @@
     padding: 12px 16px;
     border: none;
     border-radius: 4px;
-    background-color:rgba(70, 145, 101, 1);
+    background-color:#469165;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #3a7b56;
 }
 .btn-2 {
     font-size: 16px;
@@ -32,6 +36,10 @@
     border-radius: 4px;
     background-color:transparent;
     border: 1px solid white;
+    cursor: pointer;
+}
+.btn-2:hover {
+    box-shadow: 0 0 12px #ffffff;
 }
 
 /* nav section */
@@ -66,41 +74,26 @@
 .hero-container {
     padding: 115px 0px 180px 0px;
 }
+.early-section {
+    display: flex;
+    justify-content: center;
+}
 .dot-container {
+    width: 229px;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 1000px;
     display: flex;
     gap: 6px;
     justify-content: center;
     align-items: center
 }
-.status-dot {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: #cfe6d6;
-    box-shadow: 0 0 0 4px rgba(111, 168, 122, 0.25);
+.dot-img {
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.status-dot-2 {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background-color: #cfe6d6;
-    box-shadow: 0 0 0 4px rgba(111, 168, 122, 0.35);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.status-dot-3 {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #5f8f6b;
 }
 .early-access-text {
+    text-align: center;
     font-size: 16px;
     font-weight: 500;
     color:rgba(70, 145, 101, 1)
@@ -125,7 +118,7 @@
 }
 /* notes section */
 .notes-section {
-    padding: 60px 0px 120px 0px;
+    padding: 65px 0px 120px 0px;
 }
 .notes-heading {
     font-size: 48px;
@@ -152,7 +145,7 @@
     align-items: center;
     justify-content: center;
     padding: 24px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 8px 0px #00193113;
     border-radius: 8px;
     width: 322px;
     height: 300px;
@@ -185,7 +178,6 @@
 /* Your second brain section */
 .knowledge-section {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 60px;
 }
@@ -247,6 +239,9 @@ footer {
 }
 .footer-container {
     padding-top: 120px;
+}
+.footer-links {
+    margin-right: 107px;
 }
 .footer-logo-icons-container {
     display: flex;
