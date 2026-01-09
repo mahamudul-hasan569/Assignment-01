@@ -182,3 +182,38 @@
     color: #627382;
     margin-bottom: 45px;
 }
+/* Your second brain section */
+.knowledge-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.knowledge-img img {
+    border-radius: 12px;
+}
+.knowledge-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #30b868;
+    margin-bottom: 16px;
+}
+.knowledge-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.knowledge-description {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.knowledge-list li {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 16px;
+}
