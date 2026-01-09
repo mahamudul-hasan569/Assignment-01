@@ -217,3 +217,27 @@
     color: #001931;
     margin-bottom: 16px;
 }
+/* challenges section */
+.challenge-Part {
+    padding: 80px 0px;
+    background-color: #F7F6F2;
+    margin: 120px auto;
+}
+.challenge-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.challenge-text {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #627382;
+}
+.challenge-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
