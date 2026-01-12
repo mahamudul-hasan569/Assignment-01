@@ -68,8 +68,8 @@
     background: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1600px;
     height: 674px;
+    max-width: 1600px;
 }
 .hero-container {
     padding: 115px 0px 180px 0px;
